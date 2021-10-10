@@ -8,7 +8,7 @@ pdf_path = (
 
 # 1
 pdf_reader = PdfFileReader(str(pdf_path))
-output_file_path = Path.home() / "Pride_and_Prejudice.txt"
+output_file_path = Path.home() / "Pride_and_Prejudicemain.txt"
 
 # 2
 with output_file_path.open(mode="w") as output_file:
